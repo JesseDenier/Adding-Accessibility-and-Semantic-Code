@@ -34,7 +34,8 @@ h4 {
     font-size: 20px;
 }
 
-.header {
+/* Starting with header and working down I adjusted CSS to match new semantic HTML. */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -45,7 +46,7 @@ h4 {
     color: #d9dcd6;
 }
 
-.header ul {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -54,13 +55,10 @@ h4 {
     list-style-type: none;
 }
 
-.header ul li {
+/* Added more specificity to this because <a href>s added later likely wont need to look like they do in the header.*/
+header a {
     display: inline-block;
     margin-left: 25px;
-}
-
-/* Added more specificity to this because <a href>s added later likely wont need to look like they do in the header.*/
-.header a {
     color: #ffffff;
     text-decoration: none;
 }
@@ -97,7 +95,7 @@ h4 {
 }
 
 /* Moved benefits below content blocks to match HTML order.*/
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -125,7 +123,7 @@ h4 {
     max-width: 150px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
