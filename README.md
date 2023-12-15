@@ -4,12 +4,17 @@
 
 This is the first challenge of the UT Coding Bootcamp. It is designed to test my ability to add accessibility to websites while improving HTML and CSS to be semantic, logical, and follow DRY.
 
+Here is an image of what it should look like:
+![Demo Image](https://github.com/JesseDenier/Module-1-Challenge/assets/149531516/ec045dba-19ba-4629-b8ed-edde7a28906b)
+
+
 ## Installation
 
 N/A
 
 ## Usage
 
+Here is a link to the website: https://jessedenier.github.io/Module-1-Challenge/
 This webpage can be opened and scrolled. There is little to no interactivity but you can use a screen reader to have the images described to you.
 
 ## Credits
