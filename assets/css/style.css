@@ -65,13 +65,11 @@ h4 {
     text-decoration: none;
 }
 
+/* Removed the background image CSS styles because the image is now in the HTML.*/
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 .contents {
