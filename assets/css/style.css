@@ -65,8 +65,8 @@ h4 {
     text-decoration: none;
 }
 
-/* Removed the background image CSS styles because the image is now in the HTML.*/
-.hero {
+/* Adjusted hero CSS to fit newly linked HTML image and remove linked CSS image.*/
+.hero img {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
